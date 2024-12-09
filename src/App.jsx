@@ -17,9 +17,9 @@ function App() {
   }
 
   return (
-    <>
+   <>
       <h1>Counter: {counter}</h1>
-      <button onClick={increase} >Increase</button>
+      <button onClick={increase} className='d-block'>Increase</button>
       <button onClick={showProduct}>Show Product</button>
       <div className='product d-none'>
         <h2>Prouduct Details</h2>
